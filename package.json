@@ -1,0 +1,21 @@
+{
+  "name": "MyBlog",
+  "version": "1.0.0",
+  "description": "我的第一个博客",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vuepress dev docs --temp .temp",
+    "docs:build": "vuepress build docs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aa1050532409/MyBlog.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aa1050532409/MyBlog/issues"
+  },
+  "homepage": "https://github.com/aa1050532409/MyBlog#readme"
+}
