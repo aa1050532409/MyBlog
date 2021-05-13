@@ -1,4 +1,3 @@
-  使用 GitHub Pages 部署提供程序模板并遵循 Travis 文档 (opens new window)。
 
   language: node_js
   node_js:
