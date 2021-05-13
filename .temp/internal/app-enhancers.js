@@ -3,11 +3,13 @@ import m1 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\d
 import m2 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\global-components-1.js"
 import m3 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\1.js"
 import m4 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\2.js"
+import m5 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\3.js"
 
 export default [
   m0,
   m1,
   m2,
   m3,
-  m4
+  m4,
+  m5
 ]

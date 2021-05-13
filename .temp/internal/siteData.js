@@ -23,36 +23,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-bf08e8f0",
-      "path": "/",
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
-    },
-    {
       "title": "关于我",
       "frontmatter": {
         "title": "关于我"
@@ -88,18 +58,48 @@ export const siteData = {
           "slug": "一级标题4"
         }
       ],
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
+      "lastUpdated": "2021年5月13日星期四晚上9点20分"
     },
     {
-      "title": "CSS C",
+      "title": "Home",
       "frontmatter": {
-        "title": "CSS C"
+        "home": true,
+        "heroText": "Hero 标题",
+        "tagline": "Hero 副标题",
+        "actionText": "快速上手 →",
+        "actionLink": "/zh/guide/",
+        "features": [
+          {
+            "title": "简洁至上",
+            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
+          },
+          {
+            "title": "Vue驱动",
+            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
+          },
+          {
+            "title": "高性能",
+            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
+          }
+        ],
+        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
       },
-      "regularPath": "/css/c-ccc.html",
-      "relativePath": "css/c-ccc.md",
-      "key": "v-103b8da6",
-      "path": "/css/c-ccc.html",
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-bf08e8f0",
+      "path": "/",
+      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+    },
+    {
+      "title": "CSS B",
+      "frontmatter": {
+        "title": "CSS B"
+      },
+      "regularPath": "/css/c-bbb.html",
+      "relativePath": "css/c-bbb.md",
+      "key": "v-a04bc174",
+      "path": "/css/c-bbb.html",
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
     },
     {
       "title": "CSS A",
@@ -110,7 +110,7 @@ export const siteData = {
       "relativePath": "css/c-aaa.md",
       "key": "v-4f78b0e6",
       "path": "/css/c-aaa.html",
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
     },
     {
       "title": "CSS a",
@@ -128,7 +128,29 @@ export const siteData = {
           "slug": "你好-css"
         }
       ],
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
+    },
+    {
+      "title": "J B",
+      "frontmatter": {
+        "title": "J B"
+      },
+      "regularPath": "/javascript/j-bbb.html",
+      "relativePath": "javascript/j-bbb.md",
+      "key": "v-e8252b9c",
+      "path": "/javascript/j-bbb.html",
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
+    },
+    {
+      "title": "J C",
+      "frontmatter": {
+        "title": "J C"
+      },
+      "regularPath": "/javascript/j-ccc.html",
+      "relativePath": "javascript/j-ccc.md",
+      "key": "v-56651630",
+      "path": "/javascript/j-ccc.html",
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
     },
     {
       "title": "J AAA",
@@ -139,7 +161,7 @@ export const siteData = {
       "relativePath": "javascript/j-aaa.md",
       "key": "v-7d148398",
       "path": "/javascript/j-aaa.html",
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
     },
     {
       "title": "J a",
@@ -157,40 +179,7 @@ export const siteData = {
           "slug": "你好-javascript"
         }
       ],
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
-    },
-    {
-      "title": "CSS B",
-      "frontmatter": {
-        "title": "CSS B"
-      },
-      "regularPath": "/css/c-bbb.html",
-      "relativePath": "css/c-bbb.md",
-      "key": "v-a04bc174",
-      "path": "/css/c-bbb.html",
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
-    },
-    {
-      "title": "J B",
-      "frontmatter": {
-        "title": "J B"
-      },
-      "regularPath": "/javascript/j-bbb.html",
-      "relativePath": "javascript/j-bbb.md",
-      "key": "v-e8252b9c",
-      "path": "/javascript/j-bbb.html",
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
-    },
-    {
-      "title": "J C",
-      "frontmatter": {
-        "title": "J C"
-      },
-      "regularPath": "/javascript/j-ccc.html",
-      "relativePath": "javascript/j-ccc.md",
-      "key": "v-56651630",
-      "path": "/javascript/j-ccc.html",
-      "lastUpdated": "Monday, May 10, 2021 4:26 PM"
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
     },
     {
       "title": "评论",
@@ -200,7 +189,19 @@ export const siteData = {
       "regularPath": "/message.html",
       "relativePath": "message.md",
       "key": "v-a25a4b1a",
-      "path": "/message.html"
+      "path": "/message.html",
+      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+    },
+    {
+      "title": "CSS C",
+      "frontmatter": {
+        "title": "CSS C"
+      },
+      "regularPath": "/css/c-ccc.html",
+      "relativePath": "css/c-ccc.md",
+      "key": "v-103b8da6",
+      "path": "/css/c-ccc.html",
+      "lastUpdated": "2021年5月10日星期一下午4点26分"
     }
   ],
   "themeConfig": {
