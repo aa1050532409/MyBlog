@@ -4,12 +4,13 @@
 export default {
   "v-bf08e8f0": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\README.md"),
   "v-52fdf81a": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\about.md"),
-  "v-9518b5e6": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\css\\README.md"),
-  "v-4f78b0e6": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\css\\c-aaa.md"),
-  "v-a04bc174": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\css\\c-bbb.md"),
   "v-103b8da6": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\css\\c-ccc.md"),
+  "v-4f78b0e6": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\css\\c-aaa.md"),
+  "v-9518b5e6": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\css\\README.md"),
   "v-7d148398": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\javascript\\j-aaa.md"),
   "v-8309dd6a": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\javascript\\README.md"),
+  "v-a04bc174": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\css\\c-bbb.md"),
+  "v-e8252b9c": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\javascript\\j-bbb.md"),
   "v-56651630": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\javascript\\j-ccc.md"),
-  "v-e8252b9c": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\javascript\\j-bbb.md") 
+  "v-a25a4b1a": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\message.md") 
 }
