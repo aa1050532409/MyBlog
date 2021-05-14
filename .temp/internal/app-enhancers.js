@@ -1,7 +1,7 @@
 import m0 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\0.js"
 import m1 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\1.js"
 import m2 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\data-block.js"
-import m3 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\global-components-12.js"
+import m3 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\global-components-11.js"
 import m4 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\2.js"
 import m5 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\3.js"
 import m6 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\4.js"
@@ -17,6 +17,8 @@ import m15 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\
 import m16 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\13.js"
 import m17 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\14.js"
 import m18 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\15.js"
+import m19 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\16.js"
+import m20 from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\.temp\\app-enhancers\\17.js"
 
 export default [
   m0,
@@ -37,5 +39,7 @@ export default [
   m15,
   m16,
   m17,
-  m18
+  m18,
+  m19,
+  m20
 ]

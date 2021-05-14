@@ -1,7 +1,7 @@
 ---
 home: true
 heroText: Monster Charment的博客
-tagline: 欢迎欢迎~~~~~
+tagline: 欢迎来到我的博客~
 # bgImage: '/bg.png'
 # bgImageStyle: {
 #     maxWidth: '100%',
@@ -15,3 +15,4 @@ tagline: 欢迎欢迎~~~~~
 #   boxShadow: '0 5px 18px rgba(0,0,0,0.2)'
 # }
 ---
+## <CountUp :endVal="2021"/>

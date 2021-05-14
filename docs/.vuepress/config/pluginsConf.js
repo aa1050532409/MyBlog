@@ -4,7 +4,7 @@ moment.locale("zh-cn")
 module.exports = [
   [
     '@vuepress/last-updated',{
-    transformer: (timestamp) => moment(timestamp).format("LLLL")
+    transformer: (timestamp) => moment(timestamp).format('LLLL')
     }
   ],
   [
@@ -38,6 +38,15 @@ module.exports = [
       }
     }
   ],
+  ["sakura", {
+    num: 25,  // 默认数量
+    show: true, //  是否显示
+    zIndex: -1,   // 层级
+    img: {
+      replace: false,  // false 默认图 true 换图 需要填写httpUrl地址
+      httpUrl: '...'     // 绝对路径
+    }
+  }],
   [
     'meting', {
       //metingApi,
@@ -76,4 +85,5 @@ module.exports = [
       },
     }
   ],
+  ['reading-progress'],
 ]

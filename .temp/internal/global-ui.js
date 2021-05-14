@@ -2,5 +2,7 @@ export default [
   "BackToTop",
   "BackToTop",
   "DynamicTitle",
-  "MetingGlobal"
+  "Sakura",
+  "MetingGlobal",
+  "ReadingProgress"
 ]

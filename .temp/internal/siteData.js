@@ -50,18 +50,27 @@ export const siteData = {
       "frontmatter": {
         "home": true,
         "heroText": "Monster Charment的博客",
-        "tagline": "欢迎欢迎~~~~~"
+        "tagline": "欢迎来到我的博客~",
+        "readingShow": "top"
       },
       "regularPath": "/",
       "relativePath": "README.md",
       "key": "v-bf08e8f0",
       "path": "/",
+      "headers": [
+        {
+          "level": 2,
+          "title": "",
+          "slug": "countup-endval-2021"
+        }
+      ],
       "lastUpdated": "2021年5月14日星期五下午12点37分"
     },
     {
       "title": "CountUp 第三方组件",
       "frontmatter": {
-        "title": "CountUp 第三方组件"
+        "title": "CountUp 第三方组件",
+        "readingShow": "top"
       },
       "regularPath": "/countup.html",
       "relativePath": "countup.md",
@@ -70,20 +79,10 @@ export const siteData = {
       "lastUpdated": "2021年5月13日星期四晚上10点52分"
     },
     {
-      "title": "关于我",
-      "frontmatter": {
-        "title": "关于我"
-      },
-      "regularPath": "/about/about.html",
-      "relativePath": "about/about.md",
-      "key": "v-7c2ac234",
-      "path": "/about/about.html",
-      "lastUpdated": "2021年5月14日星期五下午12点37分"
-    },
-    {
       "title": "评论",
       "frontmatter": {
-        "title": "评论"
+        "title": "评论",
+        "readingShow": "top"
       },
       "regularPath": "/message.html",
       "relativePath": "message.md",
@@ -92,9 +91,32 @@ export const siteData = {
       "lastUpdated": "2021年5月13日星期四晚上9点20分"
     },
     {
+      "title": "关于我和这个博客",
+      "frontmatter": {
+        "title": "关于我和这个博客",
+        "description": "好像没啥用的description",
+        "categories": [
+          "about me and blog"
+        ],
+        "tags": [
+          "about"
+        ],
+        "publish": true,
+        "sticky": 1,
+        "date": "2021-05-14T20:00:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/about/about.html",
+      "relativePath": "about/about.md",
+      "key": "v-7c2ac234",
+      "path": "/about/about.html",
+      "lastUpdated": "2021年5月14日星期五下午12点37分"
+    },
+    {
       "frontmatter": {
         "layout": "Tags",
-        "title": "Tags"
+        "title": "Tags",
+        "readingShow": "top"
       },
       "regularPath": "/tag/",
       "key": "v-b1564aac",
@@ -103,7 +125,8 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "FrontmatterKey",
-        "title": "Categories"
+        "title": "Categories",
+        "readingShow": "top"
       },
       "regularPath": "/categories/",
       "key": "v-ef9325c4",
@@ -112,11 +135,32 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "TimeLines",
-        "title": "Timeline"
+        "title": "Timeline",
+        "readingShow": "top"
       },
       "regularPath": "/timeline/",
       "key": "v-6319eb4e",
       "path": "/timeline/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "about Tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tag/about/",
+      "key": "v-9a67fd28",
+      "path": "/tag/about/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "about me and blog Categories",
+        "readingShow": "top"
+      },
+      "regularPath": "/categories/about%20me%20and%20blog/",
+      "key": "v-2903608a",
+      "path": "/categories/about me and blog/"
     }
   ],
   "themeConfig": {
@@ -135,27 +179,31 @@ export const siteData = {
         "icon": "reco-category",
         "items": [
           {
-            "text": "CSS"
+            "text": "CSS",
+            "link": "/"
           },
           {
-            "text": "JavaScript"
+            "text": "JavaScript",
+            "link": "/"
           },
           {
-            "text": "Vue"
+            "text": "Vue",
+            "link": "/"
           }
         ]
       },
       {
         "text": "时间线",
         "icon": "reco-date",
-        "link": "#"
+        "link": "/"
       },
       {
         "text": "项目",
         "icon": "reco-menu",
         "items": [
           {
-            "text": "暂无~"
+            "text": "暂无~",
+            "link": "/"
           }
         ]
       },
@@ -164,10 +212,12 @@ export const siteData = {
         "icon": "reco-tag",
         "items": [
           {
-            "text": "git的使用"
+            "text": "git的使用",
+            "link": "/"
           },
           {
-            "text": "github"
+            "text": "github",
+            "link": "/"
           }
         ]
       },
@@ -181,7 +231,7 @@ export const siteData = {
           },
           {
             "text": "关于博客",
-            "link": "#"
+            "link": "/"
           }
         ]
       },

@@ -29,19 +29,19 @@ export const routes = [
     },
   },
   {
-    name: "v-7c2ac234",
-    path: "/about/about.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7c2ac234").then(next)
-    },
-  },
-  {
     name: "v-a25a4b1a",
     path: "/message.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-a25a4b1a").then(next)
+    },
+  },
+  {
+    name: "v-7c2ac234",
+    path: "/about/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7c2ac234").then(next)
     },
   },
   {
@@ -82,6 +82,32 @@ export const routes = [
   {
     path: "/timeline/index.html",
     redirect: "/timeline/"
+  },
+  {
+    name: "v-9a67fd28",
+    path: "/tag/about/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-9a67fd28").then(next)
+    },
+    meta: {"pid":"tags","id":"about"}
+  },
+  {
+    path: "/tag/about/index.html",
+    redirect: "/tag/about/"
+  },
+  {
+    name: "v-2903608a",
+    path: "/categories/about me and blog/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-2903608a").then(next)
+    },
+    meta: {"pid":"categories","id":"about me and blog"}
+  },
+  {
+    path: "/categories/about me and blog/index.html",
+    redirect: "/categories/about me and blog/"
   },
   {
     path: '*',

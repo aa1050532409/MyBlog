@@ -4,6 +4,6 @@
 export default {
   "v-bf08e8f0": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\README.md"),
   "v-4c5f2a53": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\countup.md"),
-  "v-7c2ac234": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\about\\about.md"),
-  "v-a25a4b1a": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\message.md") 
+  "v-a25a4b1a": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\message.md"),
+  "v-7c2ac234": () => import("C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\docs\\about\\about.md") 
 }

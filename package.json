@@ -30,6 +30,9 @@
     "vuepress-plugin-dynamic-title": "^1.0.0",
     "vuepress-plugin-meting": "^0.2.3",
     "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-plugin-reading-progress": "^1.0.10",
+    "vuepress-plugin-ribbon": "^1.0.4",
+    "vuepress-plugin-sakura": "^1.1.0",
     "vuepress-theme-melodydl": "^1.1.2",
     "vuepress-theme-reco": "^1.6.6"
   },

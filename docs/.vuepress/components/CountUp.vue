@@ -29,7 +29,7 @@
       },
       delay: {
         type: Number,
-        default: 0
+        default: 10
       }
     },
     data(){
