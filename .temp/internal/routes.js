@@ -9,30 +9,6 @@ import GlobalLayout from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\node_modules\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-7c2ac234",
-    path: "/about/about.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7c2ac234").then(next)
-    },
-  },
-  {
-    name: "v-4c5f2a53",
-    path: "/countup.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4c5f2a53").then(next)
-    },
-  },
-  {
-    name: "v-a25a4b1a",
-    path: "/message.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a25a4b1a").then(next)
-    },
-  },
-  {
     name: "v-bf08e8f0",
     path: "/",
     component: GlobalLayout,
@@ -43,6 +19,30 @@ export const routes = [
   {
     path: "/index.html",
     redirect: "/"
+  },
+  {
+    name: "v-4c5f2a53",
+    path: "/countup.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4c5f2a53").then(next)
+    },
+  },
+  {
+    name: "v-7c2ac234",
+    path: "/about/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7c2ac234").then(next)
+    },
+  },
+  {
+    name: "v-a25a4b1a",
+    path: "/message.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a25a4b1a").then(next)
+    },
   },
   {
     name: "v-b1564aac",

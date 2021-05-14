@@ -46,14 +46,17 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "关于我",
+      "title": "Home",
       "frontmatter": {
-        "title": "关于我"
+        "home": true,
+        "heroText": "Monster Charment的博客",
+        "tagline": "欢迎欢迎~~~~~"
       },
-      "regularPath": "/about/about.html",
-      "relativePath": "about/about.md",
-      "key": "v-7c2ac234",
-      "path": "/about/about.html"
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-bf08e8f0",
+      "path": "/",
+      "lastUpdated": "2021年5月14日星期五下午12点37分"
     },
     {
       "title": "CountUp 第三方组件",
@@ -67,6 +70,17 @@ export const siteData = {
       "lastUpdated": "2021年5月13日星期四晚上10点52分"
     },
     {
+      "title": "关于我",
+      "frontmatter": {
+        "title": "关于我"
+      },
+      "regularPath": "/about/about.html",
+      "relativePath": "about/about.md",
+      "key": "v-7c2ac234",
+      "path": "/about/about.html",
+      "lastUpdated": "2021年5月14日星期五下午12点37分"
+    },
+    {
       "title": "评论",
       "frontmatter": {
         "title": "评论"
@@ -75,19 +89,6 @@ export const siteData = {
       "relativePath": "message.md",
       "key": "v-a25a4b1a",
       "path": "/message.html",
-      "lastUpdated": "2021年5月13日星期四晚上9点20分"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "Monster Charment的博客",
-        "tagline": "欢迎欢迎~~~~~"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-bf08e8f0",
-      "path": "/",
       "lastUpdated": "2021年5月13日星期四晚上9点20分"
     },
     {
