@@ -5,12 +5,17 @@ const sidebarConf = require('./config/sidebarConf')
 
 module.exports = {
   title: "Monster Charment的博客",
-  description: "Monster Charment的博客",
+  description: "欢迎欢迎~~~",
   head: headConf,
   plugins: pluginsConf,
+  theme: 'reco',
   themeConfig: {
+    type: 'blog',
+    author: 'Monster Charment',
+    authorAvatar: '/avatar.jpg',
     logo: '/assets/img/home/homegif.gif',
     nav: navConf,
-    sidebar: sidebarConf
+    sidebar: sidebarConf,
+    noFoundPageByTencent: false,
   },
 };

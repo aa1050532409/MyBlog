@@ -26,7 +26,12 @@
     "@vssue/vuepress-plugin-vssue": "^1.4.8",
     "countup.js": "^2.0.7",
     "moment": "^2.29.1",
-    "vssue": "^1.4.8"
+    "vssue": "^1.4.8",
+    "vuepress-plugin-dynamic-title": "^1.0.0",
+    "vuepress-plugin-meting": "^0.2.3",
+    "vuepress-plugin-nuggets-style-copy": "^1.0.3",
+    "vuepress-theme-melodydl": "^1.1.2",
+    "vuepress-theme-reco": "^1.6.6"
   },
   "devDependencies": {
     "@vuepress/plugin-back-to-top": "^1.8.2",

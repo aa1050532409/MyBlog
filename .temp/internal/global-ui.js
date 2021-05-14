@@ -1,3 +1,6 @@
 export default [
-  "BackToTop"
+  "BackToTop",
+  "BackToTop",
+  "DynamicTitle",
+  "MetingGlobal"
 ]

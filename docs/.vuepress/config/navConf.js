@@ -1,14 +1,39 @@
 module.exports = [
-  { text: 'Home', link: '/' },
-  { text: 'Guide', link: '/guide/' },
-  { text: 'About', link: '/about.html' },
-  { text: '留言', link: '/message.html' },
+  { text: '主页', icon:'reco-home', link: '/' },
   {
-    text: 'Languages',
-    ariaLabel: 'Language Menu',
+    text: '分类', icon:'reco-category',
     items: [
-      { text: 'Chinese', link: '/language/chinese/' },
-      { text: 'Japanese', link: '/language/japanese/' }
+      { text: 'CSS', },
+      { text: 'JavaScript', },
+      { text: 'Vue',}
     ]
-  }
+  },
+  { text: '时间线', icon:'reco-date', link: '#'},
+  {
+    text: '项目', icon:'reco-menu',
+    items: [
+      { text: '暂无~' },
+    ]
+  },
+  {
+    text: '工具', icon:'reco-tag',
+    items: [
+      { text: 'git的使用', },
+      { text: 'github', }
+    ]
+  },
+  {
+    text: '关于', icon:'reco-account',
+    items: [
+      { text: '关于我', link: '/about/about.html' },
+      { text: '关于博客', link: '#' }
+    ]
+  },
+  { text: '留言', icon:'reco-message', link: '/message.html' },
+  {
+    text: 'github', icon:'reco-github',
+    items: [
+      { text:'我的github',link:'https://github.com/aa1050532409' }
+    ]
+  },
 ]

@@ -3,7 +3,7 @@
  */
 export const siteData = {
   "title": "Monster Charment的博客",
-  "description": "Monster Charment的博客",
+  "description": "欢迎欢迎~~~",
   "base": "/",
   "headTags": [
     [
@@ -19,6 +19,29 @@ export const siteData = {
         "name": "keywords",
         "content": "Monster Charment的博客"
       }
+    ],
+    [
+      "link",
+      {
+        "rel": "icon",
+        "href": "favicon.ico"
+      }
+    ],
+    [
+      "script",
+      {
+        "language": "javascript",
+        "type": "text/javascript",
+        "src": "/js/jquery.min.js"
+      }
+    ],
+    [
+      "script",
+      {
+        "language": "javascript",
+        "type": "text/javascript",
+        "src": "/js/MouseClickEffect.js"
+      }
     ]
   ],
   "pages": [
@@ -27,38 +50,10 @@ export const siteData = {
       "frontmatter": {
         "title": "关于我"
       },
-      "regularPath": "/about.html",
-      "relativePath": "about.md",
-      "key": "v-52fdf81a",
-      "path": "/about.html",
-      "headers": [
-        {
-          "level": 2,
-          "title": "一级标题1",
-          "slug": "一级标题1"
-        },
-        {
-          "level": 3,
-          "title": "二级标题1",
-          "slug": "二级标题1"
-        },
-        {
-          "level": 2,
-          "title": "一级标题2",
-          "slug": "一级标题2"
-        },
-        {
-          "level": 2,
-          "title": "一级标题3",
-          "slug": "一级标题3"
-        },
-        {
-          "level": 2,
-          "title": "一级标题4",
-          "slug": "一级标题4"
-        }
-      ],
-      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+      "regularPath": "/about/about.html",
+      "relativePath": "about/about.md",
+      "key": "v-7c2ac234",
+      "path": "/about/about.html"
     },
     {
       "title": "CountUp 第三方组件",
@@ -68,139 +63,8 @@ export const siteData = {
       "regularPath": "/countup.html",
       "relativePath": "countup.md",
       "key": "v-4c5f2a53",
-      "path": "/countup.html"
-    },
-    {
-      "title": "Home",
-      "frontmatter": {
-        "home": true,
-        "heroText": "Hero 标题",
-        "tagline": "Hero 副标题",
-        "actionText": "快速上手 →",
-        "actionLink": "/zh/guide/",
-        "features": [
-          {
-            "title": "简洁至上",
-            "details": "以 Markdown 为中心的项目结构，以最少的配置帮助你专注于写作。"
-          },
-          {
-            "title": "Vue驱动",
-            "details": "享受 Vue + webpack 的开发体验，在 Markdown 中使用 Vue 组件，同时可以使用 Vue 来开发自定义主题。"
-          },
-          {
-            "title": "高性能",
-            "details": "VuePress 为每个页面预渲染生成静态的 HTML，同时在页面被加载的时候，将作为 SPA 运行。"
-          }
-        ],
-        "footer": "MIT Licensed | Copyright © 2018-present Evan You"
-      },
-      "regularPath": "/",
-      "relativePath": "README.md",
-      "key": "v-bf08e8f0",
-      "path": "/",
-      "lastUpdated": "2021年5月13日星期四晚上9点20分"
-    },
-    {
-      "title": "CSS A",
-      "frontmatter": {
-        "title": "CSS A"
-      },
-      "regularPath": "/css/c-aaa.html",
-      "relativePath": "css/c-aaa.md",
-      "key": "v-4f78b0e6",
-      "path": "/css/c-aaa.html",
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
-    },
-    {
-      "title": "CSS a",
-      "frontmatter": {
-        "title": "CSS a"
-      },
-      "regularPath": "/css/",
-      "relativePath": "css/README.md",
-      "key": "v-9518b5e6",
-      "path": "/css/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好 CSS",
-          "slug": "你好-css"
-        }
-      ],
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
-    },
-    {
-      "title": "CSS B",
-      "frontmatter": {
-        "title": "CSS B"
-      },
-      "regularPath": "/css/c-bbb.html",
-      "relativePath": "css/c-bbb.md",
-      "key": "v-a04bc174",
-      "path": "/css/c-bbb.html",
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
-    },
-    {
-      "title": "J a",
-      "frontmatter": {
-        "title": "J a"
-      },
-      "regularPath": "/javascript/",
-      "relativePath": "javascript/README.md",
-      "key": "v-8309dd6a",
-      "path": "/javascript/",
-      "headers": [
-        {
-          "level": 2,
-          "title": "你好 Javascript",
-          "slug": "你好-javascript"
-        }
-      ],
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
-    },
-    {
-      "title": "CSS C",
-      "frontmatter": {
-        "title": "CSS C"
-      },
-      "regularPath": "/css/c-ccc.html",
-      "relativePath": "css/c-ccc.md",
-      "key": "v-103b8da6",
-      "path": "/css/c-ccc.html",
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
-    },
-    {
-      "title": "J B",
-      "frontmatter": {
-        "title": "J B"
-      },
-      "regularPath": "/javascript/j-bbb.html",
-      "relativePath": "javascript/j-bbb.md",
-      "key": "v-e8252b9c",
-      "path": "/javascript/j-bbb.html",
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
-    },
-    {
-      "title": "J AAA",
-      "frontmatter": {
-        "title": "J AAA"
-      },
-      "regularPath": "/javascript/j-aaa.html",
-      "relativePath": "javascript/j-aaa.md",
-      "key": "v-7d148398",
-      "path": "/javascript/j-aaa.html",
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
-    },
-    {
-      "title": "J C",
-      "frontmatter": {
-        "title": "J C"
-      },
-      "regularPath": "/javascript/j-ccc.html",
-      "relativePath": "javascript/j-ccc.md",
-      "key": "v-56651630",
-      "path": "/javascript/j-ccc.html",
-      "lastUpdated": "2021年5月10日星期一下午4点26分"
+      "path": "/countup.html",
+      "lastUpdated": "2021年5月13日星期四晚上10点52分"
     },
     {
       "title": "评论",
@@ -212,53 +76,131 @@ export const siteData = {
       "key": "v-a25a4b1a",
       "path": "/message.html",
       "lastUpdated": "2021年5月13日星期四晚上9点20分"
+    },
+    {
+      "title": "Home",
+      "frontmatter": {
+        "home": true,
+        "heroText": "Monster Charment的博客",
+        "tagline": "欢迎欢迎~~~~~"
+      },
+      "regularPath": "/",
+      "relativePath": "README.md",
+      "key": "v-bf08e8f0",
+      "path": "/",
+      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tags",
+        "title": "Tags"
+      },
+      "regularPath": "/tag/",
+      "key": "v-b1564aac",
+      "path": "/tag/"
+    },
+    {
+      "frontmatter": {
+        "layout": "FrontmatterKey",
+        "title": "Categories"
+      },
+      "regularPath": "/categories/",
+      "key": "v-ef9325c4",
+      "path": "/categories/"
+    },
+    {
+      "frontmatter": {
+        "layout": "TimeLines",
+        "title": "Timeline"
+      },
+      "regularPath": "/timeline/",
+      "key": "v-6319eb4e",
+      "path": "/timeline/"
     }
   ],
   "themeConfig": {
+    "type": "blog",
+    "author": "Monster Charment",
+    "authorAvatar": "/avatar.jpg",
     "logo": "/assets/img/home/homegif.gif",
     "nav": [
       {
-        "text": "Home",
+        "text": "主页",
+        "icon": "reco-home",
         "link": "/"
       },
       {
-        "text": "Guide",
-        "link": "/guide/"
+        "text": "分类",
+        "icon": "reco-category",
+        "items": [
+          {
+            "text": "CSS"
+          },
+          {
+            "text": "JavaScript"
+          },
+          {
+            "text": "Vue"
+          }
+        ]
       },
       {
-        "text": "About",
-        "link": "/about.html"
+        "text": "时间线",
+        "icon": "reco-date",
+        "link": "#"
+      },
+      {
+        "text": "项目",
+        "icon": "reco-menu",
+        "items": [
+          {
+            "text": "暂无~"
+          }
+        ]
+      },
+      {
+        "text": "工具",
+        "icon": "reco-tag",
+        "items": [
+          {
+            "text": "git的使用"
+          },
+          {
+            "text": "github"
+          }
+        ]
+      },
+      {
+        "text": "关于",
+        "icon": "reco-account",
+        "items": [
+          {
+            "text": "关于我",
+            "link": "/about/about.html"
+          },
+          {
+            "text": "关于博客",
+            "link": "#"
+          }
+        ]
       },
       {
         "text": "留言",
+        "icon": "reco-message",
         "link": "/message.html"
       },
       {
-        "text": "Languages",
-        "ariaLabel": "Language Menu",
+        "text": "github",
+        "icon": "reco-github",
         "items": [
           {
-            "text": "Chinese",
-            "link": "/language/chinese/"
-          },
-          {
-            "text": "Japanese",
-            "link": "/language/japanese/"
+            "text": "我的github",
+            "link": "https://github.com/aa1050532409"
           }
         ]
       }
     ],
-    "sidebar": {
-      "/css/": [
-        "c-aaa",
-        "c-bbb",
-        "c-ccc"
-      ],
-      "/javascript/": [
-        "j-aaa",
-        "j-bbb",
-        "j-ccc"
-      ]
-    }
+    "sidebar": {},
+    "noFoundPageByTencent": false
   }
 }
