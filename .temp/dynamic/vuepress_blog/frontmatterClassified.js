@@ -3,6 +3,14 @@
  */
 export default {
   "tags": {
+    "git": {
+      "key": "git",
+      "scope": "tags",
+      "path": "/tag/git/",
+      "pageKeys": [
+        "v-e05831ce"
+      ]
+    },
     "about": {
       "key": "about",
       "scope": "tags",
@@ -13,6 +21,14 @@ export default {
     }
   },
   "categories": {
+    "git's use": {
+      "key": "git's use",
+      "scope": "categories",
+      "path": "/categories/git's use/",
+      "pageKeys": [
+        "v-e05831ce"
+      ]
+    },
     "about me and blog": {
       "key": "about me and blog",
       "scope": "categories",

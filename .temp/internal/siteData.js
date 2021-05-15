@@ -46,6 +46,26 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "git的使用",
+      "frontmatter": {
+        "title": "git的使用",
+        "description": "好像没啥用的description",
+        "categories": [
+          "git's use"
+        ],
+        "tags": [
+          "git"
+        ],
+        "publish": true,
+        "date": "2021-05-15T23:30:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/blogs/git/git.html",
+      "relativePath": "blogs/git/git.md",
+      "key": "v-e05831ce",
+      "path": "/blogs/git/git.html"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -64,7 +84,7 @@ export const siteData = {
           "slug": "countup-endval-2021"
         }
       ],
-      "lastUpdated": "2021年5月14日星期五下午12点37分"
+      "lastUpdated": "2021年5月14日星期五晚上11点05分"
     },
     {
       "title": "CountUp 第三方组件",
@@ -76,19 +96,7 @@ export const siteData = {
       "relativePath": "countup.md",
       "key": "v-4c5f2a53",
       "path": "/countup.html",
-      "lastUpdated": "2021年5月13日星期四晚上10点52分"
-    },
-    {
-      "title": "评论",
-      "frontmatter": {
-        "title": "评论",
-        "readingShow": "top"
-      },
-      "regularPath": "/message.html",
-      "relativePath": "message.md",
-      "key": "v-a25a4b1a",
-      "path": "/message.html",
-      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+      "lastUpdated": "2021年5月14日星期五晚上11点05分"
     },
     {
       "title": "关于我和这个博客",
@@ -110,7 +118,19 @@ export const siteData = {
       "relativePath": "about/about.md",
       "key": "v-7c2ac234",
       "path": "/about/about.html",
-      "lastUpdated": "2021年5月14日星期五下午12点37分"
+      "lastUpdated": "2021年5月14日星期五晚上11点05分"
+    },
+    {
+      "title": "评论",
+      "frontmatter": {
+        "title": "评论",
+        "readingShow": "top"
+      },
+      "regularPath": "/message.html",
+      "relativePath": "message.md",
+      "key": "v-a25a4b1a",
+      "path": "/message.html",
+      "lastUpdated": "2021年5月13日星期四晚上9点20分"
     },
     {
       "frontmatter": {
@@ -145,12 +165,32 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
+        "title": "git Tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tag/git/",
+      "key": "v-32383f72",
+      "path": "/tag/git/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
         "title": "about Tags",
         "readingShow": "top"
       },
       "regularPath": "/tag/about/",
       "key": "v-9a67fd28",
       "path": "/tag/about/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "git's use Categories",
+        "readingShow": "top"
+      },
+      "regularPath": "/categories/git's%20use/",
+      "key": "v-8427ddea",
+      "path": "/categories/git's use/"
     },
     {
       "frontmatter": {
@@ -213,7 +253,7 @@ export const siteData = {
         "items": [
           {
             "text": "git的使用",
-            "link": "/"
+            "link": "/blogs/git/git.html"
           },
           {
             "text": "github",

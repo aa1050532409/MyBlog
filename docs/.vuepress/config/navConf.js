@@ -18,7 +18,7 @@ module.exports = [
   {
     text: '工具', icon:'reco-tag',
     items: [
-      { text: 'git的使用', link: '/'},
+      { text: 'git的使用', link: '/blogs/git/git.html'},
       { text: 'github', link: '/'}
     ]
   },
