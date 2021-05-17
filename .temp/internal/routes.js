@@ -9,6 +9,38 @@ import GlobalLayout from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\node_modules\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
+    name: "v-5d0b4f59",
+    path: "/blogs/vue/crossDomain.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-5d0b4f59").then(next)
+    },
+  },
+  {
+    name: "v-a25a4b1a",
+    path: "/message.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a25a4b1a").then(next)
+    },
+  },
+  {
+    name: "v-4c5f2a53",
+    path: "/countup.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4c5f2a53").then(next)
+    },
+  },
+  {
+    name: "v-e05831ce",
+    path: "/blogs/git/git.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e05831ce").then(next)
+    },
+  },
+  {
     name: "v-bf08e8f0",
     path: "/",
     component: GlobalLayout,
@@ -29,35 +61,11 @@ export const routes = [
     },
   },
   {
-    name: "v-4c5f2a53",
-    path: "/countup.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4c5f2a53").then(next)
-    },
-  },
-  {
     name: "v-08340e73",
     path: "/weatherMonc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
       ensureAsyncComponentsLoaded("Layout", "v-08340e73").then(next)
-    },
-  },
-  {
-    name: "v-e05831ce",
-    path: "/blogs/git/git.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e05831ce").then(next)
-    },
-  },
-  {
-    name: "v-a25a4b1a",
-    path: "/message.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a25a4b1a").then(next)
     },
   },
   {
@@ -100,17 +108,30 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-9a67fd28",
-    path: "/tag/about/",
+    name: "v-322a45da",
+    path: "/tag/vue/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-9a67fd28").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
     },
-    meta: {"pid":"tags","id":"about"}
+    meta: {"pid":"tags","id":"vue"}
   },
   {
-    path: "/tag/about/index.html",
-    redirect: "/tag/about/"
+    path: "/tag/vue/index.html",
+    redirect: "/tag/vue/"
+  },
+  {
+    name: "v-06256e18",
+    path: "/tag/cross-domain/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Tag", "v-06256e18").then(next)
+    },
+    meta: {"pid":"tags","id":"cross-domain"}
+  },
+  {
+    path: "/tag/cross-domain/index.html",
+    redirect: "/tag/cross-domain/"
   },
   {
     name: "v-32383f72",
@@ -126,17 +147,30 @@ export const routes = [
     redirect: "/tag/git/"
   },
   {
-    name: "v-2903608a",
-    path: "/categories/about me and blog/",
+    name: "v-9a67fd28",
+    path: "/tag/about/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-2903608a").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-9a67fd28").then(next)
     },
-    meta: {"pid":"categories","id":"about me and blog"}
+    meta: {"pid":"tags","id":"about"}
   },
   {
-    path: "/categories/about me and blog/index.html",
-    redirect: "/categories/about me and blog/"
+    path: "/tag/about/index.html",
+    redirect: "/tag/about/"
+  },
+  {
+    name: "v-7f161587",
+    path: "/categories/vue/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-7f161587").then(next)
+    },
+    meta: {"pid":"categories","id":"vue"}
+  },
+  {
+    path: "/categories/vue/index.html",
+    redirect: "/categories/vue/"
   },
   {
     name: "v-8427ddea",
@@ -150,6 +184,19 @@ export const routes = [
   {
     path: "/categories/git's use/index.html",
     redirect: "/categories/git's use/"
+  },
+  {
+    name: "v-2903608a",
+    path: "/categories/about me and blog/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-2903608a").then(next)
+    },
+    meta: {"pid":"categories","id":"about me and blog"}
+  },
+  {
+    path: "/categories/about me and blog/index.html",
+    redirect: "/categories/about me and blog/"
   },
   {
     path: '*',

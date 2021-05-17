@@ -46,6 +46,72 @@ export const siteData = {
   ],
   "pages": [
     {
+      "title": "跨域的解决",
+      "frontmatter": {
+        "title": "跨域的解决",
+        "description": "好像没啥用的description",
+        "categories": [
+          "vue"
+        ],
+        "tags": [
+          "vue",
+          "cross-domain"
+        ],
+        "publish": true,
+        "date": "2021-05-17T10:00:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/blogs/vue/crossDomain.html",
+      "relativePath": "blogs/vue/crossDomain.md",
+      "key": "v-5d0b4f59",
+      "path": "/blogs/vue/crossDomain.html"
+    },
+    {
+      "title": "评论",
+      "frontmatter": {
+        "title": "评论",
+        "readingShow": "top"
+      },
+      "regularPath": "/message.html",
+      "relativePath": "message.md",
+      "key": "v-a25a4b1a",
+      "path": "/message.html",
+      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+    },
+    {
+      "title": "CountUp 第三方组件",
+      "frontmatter": {
+        "title": "CountUp 第三方组件",
+        "readingShow": "top"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-4c5f2a53",
+      "path": "/countup.html",
+      "lastUpdated": "2021年5月14日星期五晚上11点05分"
+    },
+    {
+      "title": "git的使用",
+      "frontmatter": {
+        "title": "git的使用",
+        "description": "好像没啥用的description",
+        "categories": [
+          "git's use"
+        ],
+        "tags": [
+          "git"
+        ],
+        "publish": true,
+        "date": "2021-05-15T23:30:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/blogs/git/git.html",
+      "relativePath": "blogs/git/git.md",
+      "key": "v-e05831ce",
+      "path": "/blogs/git/git.html",
+      "lastUpdated": "2021年5月16日星期日凌晨12点16分"
+    },
+    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -64,7 +130,7 @@ export const siteData = {
           "slug": "countup-endval-2021"
         }
       ],
-      "lastUpdated": "2021年5月14日星期五晚上11点05分"
+      "lastUpdated": "2021年5月17日星期一上午9点02分"
     },
     {
       "title": "关于我和这个博客",
@@ -89,18 +155,6 @@ export const siteData = {
       "lastUpdated": "2021年5月14日星期五晚上11点05分"
     },
     {
-      "title": "CountUp 第三方组件",
-      "frontmatter": {
-        "title": "CountUp 第三方组件",
-        "readingShow": "top"
-      },
-      "regularPath": "/countup.html",
-      "relativePath": "countup.md",
-      "key": "v-4c5f2a53",
-      "path": "/countup.html",
-      "lastUpdated": "2021年5月14日星期五晚上11点05分"
-    },
-    {
       "title": "天气查询",
       "frontmatter": {
         "title": "天气查询",
@@ -109,40 +163,8 @@ export const siteData = {
       "regularPath": "/weatherMonc.html",
       "relativePath": "weatherMonc.md",
       "key": "v-08340e73",
-      "path": "/weatherMonc.html"
-    },
-    {
-      "title": "git的使用",
-      "frontmatter": {
-        "title": "git的使用",
-        "description": "好像没啥用的description",
-        "categories": [
-          "git's use"
-        ],
-        "tags": [
-          "git"
-        ],
-        "publish": true,
-        "date": "2021-05-15T23:30:00.000Z",
-        "readingShow": "top"
-      },
-      "regularPath": "/blogs/git/git.html",
-      "relativePath": "blogs/git/git.md",
-      "key": "v-e05831ce",
-      "path": "/blogs/git/git.html",
-      "lastUpdated": "2021年5月16日星期日凌晨12点16分"
-    },
-    {
-      "title": "评论",
-      "frontmatter": {
-        "title": "评论",
-        "readingShow": "top"
-      },
-      "regularPath": "/message.html",
-      "relativePath": "message.md",
-      "key": "v-a25a4b1a",
-      "path": "/message.html",
-      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+      "path": "/weatherMonc.html",
+      "lastUpdated": "2021年5月17日星期一上午9点02分"
     },
     {
       "frontmatter": {
@@ -177,12 +199,22 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "about Tags",
+        "title": "vue Tags",
         "readingShow": "top"
       },
-      "regularPath": "/tag/about/",
-      "key": "v-9a67fd28",
-      "path": "/tag/about/"
+      "regularPath": "/tag/vue/",
+      "key": "v-322a45da",
+      "path": "/tag/vue/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Tag",
+        "title": "cross-domain Tags",
+        "readingShow": "top"
+      },
+      "regularPath": "/tag/cross-domain/",
+      "key": "v-06256e18",
+      "path": "/tag/cross-domain/"
     },
     {
       "frontmatter": {
@@ -196,13 +228,23 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Category",
-        "title": "about me and blog Categories",
+        "layout": "Tag",
+        "title": "about Tags",
         "readingShow": "top"
       },
-      "regularPath": "/categories/about%20me%20and%20blog/",
-      "key": "v-2903608a",
-      "path": "/categories/about me and blog/"
+      "regularPath": "/tag/about/",
+      "key": "v-9a67fd28",
+      "path": "/tag/about/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "vue Categories",
+        "readingShow": "top"
+      },
+      "regularPath": "/categories/vue/",
+      "key": "v-7f161587",
+      "path": "/categories/vue/"
     },
     {
       "frontmatter": {
@@ -213,6 +255,16 @@ export const siteData = {
       "regularPath": "/categories/git's%20use/",
       "key": "v-8427ddea",
       "path": "/categories/git's use/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "about me and blog Categories",
+        "readingShow": "top"
+      },
+      "regularPath": "/categories/about%20me%20and%20blog/",
+      "key": "v-2903608a",
+      "path": "/categories/about me and blog/"
     }
   ],
   "themeConfig": {
@@ -225,6 +277,82 @@ export const siteData = {
         "text": "主页",
         "icon": "reco-home",
         "link": "/"
+      },
+      {
+        "text": "分类",
+        "icon": "reco-category",
+        "items": [
+          {
+            "text": "CSS",
+            "link": "/"
+          },
+          {
+            "text": "JavaScript",
+            "link": "/"
+          },
+          {
+            "text": "Vue",
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "text": "时间线",
+        "icon": "reco-date",
+        "link": "/"
+      },
+      {
+        "text": "项目",
+        "icon": "reco-menu",
+        "items": [
+          {
+            "text": "暂无~",
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "text": "工具",
+        "icon": "reco-tag",
+        "items": [
+          {
+            "text": "git的使用",
+            "link": "/blogs/git/git.html"
+          },
+          {
+            "text": "github",
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "text": "关于",
+        "icon": "reco-account",
+        "items": [
+          {
+            "text": "关于我",
+            "link": "/about/about.html"
+          },
+          {
+            "text": "关于博客",
+            "link": "/"
+          }
+        ]
+      },
+      {
+        "text": "留言",
+        "icon": "reco-message",
+        "link": "/message.html"
+      },
+      {
+        "text": "github",
+        "icon": "reco-github",
+        "items": [
+          {
+            "text": "我的github",
+            "link": "https://github.com/aa1050532409"
+          }
+        ]
       }
     ],
     "sidebar": {},

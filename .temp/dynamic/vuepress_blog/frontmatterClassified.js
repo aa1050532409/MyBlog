@@ -3,12 +3,20 @@
  */
 export default {
   "tags": {
-    "about": {
-      "key": "about",
+    "vue": {
+      "key": "vue",
       "scope": "tags",
-      "path": "/tag/about/",
+      "path": "/tag/vue/",
       "pageKeys": [
-        "v-7c2ac234"
+        "v-5d0b4f59"
+      ]
+    },
+    "cross-domain": {
+      "key": "cross-domain",
+      "scope": "tags",
+      "path": "/tag/cross-domain/",
+      "pageKeys": [
+        "v-5d0b4f59"
       ]
     },
     "git": {
@@ -18,15 +26,23 @@ export default {
       "pageKeys": [
         "v-e05831ce"
       ]
+    },
+    "about": {
+      "key": "about",
+      "scope": "tags",
+      "path": "/tag/about/",
+      "pageKeys": [
+        "v-7c2ac234"
+      ]
     }
   },
   "categories": {
-    "about me and blog": {
-      "key": "about me and blog",
+    "vue": {
+      "key": "vue",
       "scope": "categories",
-      "path": "/categories/about me and blog/",
+      "path": "/categories/vue/",
       "pageKeys": [
-        "v-7c2ac234"
+        "v-5d0b4f59"
       ]
     },
     "git's use": {
@@ -35,6 +51,14 @@ export default {
       "path": "/categories/git's use/",
       "pageKeys": [
         "v-e05831ce"
+      ]
+    },
+    "about me and blog": {
+      "key": "about me and blog",
+      "scope": "categories",
+      "path": "/categories/about me and blog/",
+      "pageKeys": [
+        "v-7c2ac234"
       ]
     }
   },
