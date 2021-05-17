@@ -3,14 +3,6 @@
  */
 export default {
   "tags": {
-    "git": {
-      "key": "git",
-      "scope": "tags",
-      "path": "/tag/git/",
-      "pageKeys": [
-        "v-e05831ce"
-      ]
-    },
     "about": {
       "key": "about",
       "scope": "tags",
@@ -18,23 +10,31 @@ export default {
       "pageKeys": [
         "v-7c2ac234"
       ]
-    }
-  },
-  "categories": {
-    "git's use": {
-      "key": "git's use",
-      "scope": "categories",
-      "path": "/categories/git's use/",
+    },
+    "git": {
+      "key": "git",
+      "scope": "tags",
+      "path": "/tag/git/",
       "pageKeys": [
         "v-e05831ce"
       ]
-    },
+    }
+  },
+  "categories": {
     "about me and blog": {
       "key": "about me and blog",
       "scope": "categories",
       "path": "/categories/about me and blog/",
       "pageKeys": [
         "v-7c2ac234"
+      ]
+    },
+    "git's use": {
+      "key": "git's use",
+      "scope": "categories",
+      "path": "/categories/git's use/",
+      "pageKeys": [
+        "v-e05831ce"
       ]
     }
   },

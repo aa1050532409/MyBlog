@@ -17,5 +17,6 @@ module.exports = {
     nav: navConf,
     sidebar: sidebarConf,
     noFoundPageByTencent: false,
+    lastUpdated: '更新时间'
   },
 };

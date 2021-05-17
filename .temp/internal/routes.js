@@ -9,14 +9,6 @@ import GlobalLayout from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\node_modules\
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-e05831ce",
-    path: "/blogs/git/git.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e05831ce").then(next)
-    },
-  },
-  {
     name: "v-bf08e8f0",
     path: "/",
     component: GlobalLayout,
@@ -29,6 +21,14 @@ export const routes = [
     redirect: "/"
   },
   {
+    name: "v-7c2ac234",
+    path: "/about/about.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7c2ac234").then(next)
+    },
+  },
+  {
     name: "v-4c5f2a53",
     path: "/countup.html",
     component: GlobalLayout,
@@ -37,11 +37,19 @@ export const routes = [
     },
   },
   {
-    name: "v-7c2ac234",
-    path: "/about/about.html",
+    name: "v-08340e73",
+    path: "/weatherMonc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7c2ac234").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-08340e73").then(next)
+    },
+  },
+  {
+    name: "v-e05831ce",
+    path: "/blogs/git/git.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-e05831ce").then(next)
     },
   },
   {
@@ -92,19 +100,6 @@ export const routes = [
     redirect: "/timeline/"
   },
   {
-    name: "v-32383f72",
-    path: "/tag/git/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-32383f72").then(next)
-    },
-    meta: {"pid":"tags","id":"git"}
-  },
-  {
-    path: "/tag/git/index.html",
-    redirect: "/tag/git/"
-  },
-  {
     name: "v-9a67fd28",
     path: "/tag/about/",
     component: GlobalLayout,
@@ -118,17 +113,17 @@ export const routes = [
     redirect: "/tag/about/"
   },
   {
-    name: "v-8427ddea",
-    path: "/categories/git's use/",
+    name: "v-32383f72",
+    path: "/tag/git/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-8427ddea").then(next)
+      ensureAsyncComponentsLoaded("Tag", "v-32383f72").then(next)
     },
-    meta: {"pid":"categories","id":"git's use"}
+    meta: {"pid":"tags","id":"git"}
   },
   {
-    path: "/categories/git's use/index.html",
-    redirect: "/categories/git's use/"
+    path: "/tag/git/index.html",
+    redirect: "/tag/git/"
   },
   {
     name: "v-2903608a",
@@ -142,6 +137,19 @@ export const routes = [
   {
     path: "/categories/about me and blog/index.html",
     redirect: "/categories/about me and blog/"
+  },
+  {
+    name: "v-8427ddea",
+    path: "/categories/git's use/",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Category", "v-8427ddea").then(next)
+    },
+    meta: {"pid":"categories","id":"git's use"}
+  },
+  {
+    path: "/categories/git's use/index.html",
+    redirect: "/categories/git's use/"
   },
   {
     path: '*',

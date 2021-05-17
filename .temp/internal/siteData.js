@@ -46,26 +46,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "git的使用",
-      "frontmatter": {
-        "title": "git的使用",
-        "description": "好像没啥用的description",
-        "categories": [
-          "git's use"
-        ],
-        "tags": [
-          "git"
-        ],
-        "publish": true,
-        "date": "2021-05-15T23:30:00.000Z",
-        "readingShow": "top"
-      },
-      "regularPath": "/blogs/git/git.html",
-      "relativePath": "blogs/git/git.md",
-      "key": "v-e05831ce",
-      "path": "/blogs/git/git.html"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -84,18 +64,6 @@ export const siteData = {
           "slug": "countup-endval-2021"
         }
       ],
-      "lastUpdated": "2021年5月14日星期五晚上11点05分"
-    },
-    {
-      "title": "CountUp 第三方组件",
-      "frontmatter": {
-        "title": "CountUp 第三方组件",
-        "readingShow": "top"
-      },
-      "regularPath": "/countup.html",
-      "relativePath": "countup.md",
-      "key": "v-4c5f2a53",
-      "path": "/countup.html",
       "lastUpdated": "2021年5月14日星期五晚上11点05分"
     },
     {
@@ -119,6 +87,50 @@ export const siteData = {
       "key": "v-7c2ac234",
       "path": "/about/about.html",
       "lastUpdated": "2021年5月14日星期五晚上11点05分"
+    },
+    {
+      "title": "CountUp 第三方组件",
+      "frontmatter": {
+        "title": "CountUp 第三方组件",
+        "readingShow": "top"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-4c5f2a53",
+      "path": "/countup.html",
+      "lastUpdated": "2021年5月14日星期五晚上11点05分"
+    },
+    {
+      "title": "天气查询",
+      "frontmatter": {
+        "title": "天气查询",
+        "readingShow": "top"
+      },
+      "regularPath": "/weatherMonc.html",
+      "relativePath": "weatherMonc.md",
+      "key": "v-08340e73",
+      "path": "/weatherMonc.html"
+    },
+    {
+      "title": "git的使用",
+      "frontmatter": {
+        "title": "git的使用",
+        "description": "好像没啥用的description",
+        "categories": [
+          "git's use"
+        ],
+        "tags": [
+          "git"
+        ],
+        "publish": true,
+        "date": "2021-05-15T23:30:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/blogs/git/git.html",
+      "relativePath": "blogs/git/git.md",
+      "key": "v-e05831ce",
+      "path": "/blogs/git/git.html",
+      "lastUpdated": "2021年5月16日星期日凌晨12点16分"
     },
     {
       "title": "评论",
@@ -165,16 +177,6 @@ export const siteData = {
     {
       "frontmatter": {
         "layout": "Tag",
-        "title": "git Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/git/",
-      "key": "v-32383f72",
-      "path": "/tag/git/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
         "title": "about Tags",
         "readingShow": "top"
       },
@@ -184,13 +186,13 @@ export const siteData = {
     },
     {
       "frontmatter": {
-        "layout": "Category",
-        "title": "git's use Categories",
+        "layout": "Tag",
+        "title": "git Tags",
         "readingShow": "top"
       },
-      "regularPath": "/categories/git's%20use/",
-      "key": "v-8427ddea",
-      "path": "/categories/git's use/"
+      "regularPath": "/tag/git/",
+      "key": "v-32383f72",
+      "path": "/tag/git/"
     },
     {
       "frontmatter": {
@@ -201,6 +203,16 @@ export const siteData = {
       "regularPath": "/categories/about%20me%20and%20blog/",
       "key": "v-2903608a",
       "path": "/categories/about me and blog/"
+    },
+    {
+      "frontmatter": {
+        "layout": "Category",
+        "title": "git's use Categories",
+        "readingShow": "top"
+      },
+      "regularPath": "/categories/git's%20use/",
+      "key": "v-8427ddea",
+      "path": "/categories/git's use/"
     }
   ],
   "themeConfig": {
@@ -213,85 +225,10 @@ export const siteData = {
         "text": "主页",
         "icon": "reco-home",
         "link": "/"
-      },
-      {
-        "text": "分类",
-        "icon": "reco-category",
-        "items": [
-          {
-            "text": "CSS",
-            "link": "/"
-          },
-          {
-            "text": "JavaScript",
-            "link": "/"
-          },
-          {
-            "text": "Vue",
-            "link": "/"
-          }
-        ]
-      },
-      {
-        "text": "时间线",
-        "icon": "reco-date",
-        "link": "/"
-      },
-      {
-        "text": "项目",
-        "icon": "reco-menu",
-        "items": [
-          {
-            "text": "暂无~",
-            "link": "/"
-          }
-        ]
-      },
-      {
-        "text": "工具",
-        "icon": "reco-tag",
-        "items": [
-          {
-            "text": "git的使用",
-            "link": "/blogs/git/git.html"
-          },
-          {
-            "text": "github",
-            "link": "/"
-          }
-        ]
-      },
-      {
-        "text": "关于",
-        "icon": "reco-account",
-        "items": [
-          {
-            "text": "关于我",
-            "link": "/about/about.html"
-          },
-          {
-            "text": "关于博客",
-            "link": "/"
-          }
-        ]
-      },
-      {
-        "text": "留言",
-        "icon": "reco-message",
-        "link": "/message.html"
-      },
-      {
-        "text": "github",
-        "icon": "reco-github",
-        "items": [
-          {
-            "text": "我的github",
-            "link": "https://github.com/aa1050532409"
-          }
-        ]
       }
     ],
     "sidebar": {},
-    "noFoundPageByTencent": false
+    "noFoundPageByTencent": false,
+    "lastUpdated": "更新时间"
   }
 }

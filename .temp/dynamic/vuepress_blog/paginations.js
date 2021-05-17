@@ -7,15 +7,6 @@ import filters from './pageFilters'
 
 export default [{
   pid: "tags",
-  id: "git",
-  filter: filters.tags,
-  sorter: sorters.tags,
-  pages: [{"path":"/tag/git/","interval":[0,1]}],
-  prevText: "Prev",
-  nextText: "Next",
-},
-{
-  pid: "tags",
   id: "about",
   filter: filters.tags,
   sorter: sorters.tags,
@@ -24,11 +15,11 @@ export default [{
   nextText: "Next",
 },
 {
-  pid: "categories",
-  id: "git's use",
-  filter: filters.categories,
-  sorter: sorters.categories,
-  pages: [{"path":"/categories/git's use/","interval":[0,1]}],
+  pid: "tags",
+  id: "git",
+  filter: filters.tags,
+  sorter: sorters.tags,
+  pages: [{"path":"/tag/git/","interval":[0,1]}],
   prevText: "Prev",
   nextText: "Next",
 },
@@ -38,6 +29,15 @@ export default [{
   filter: filters.categories,
   sorter: sorters.categories,
   pages: [{"path":"/categories/about me and blog/","interval":[0,1]}],
+  prevText: "Prev",
+  nextText: "Next",
+},
+{
+  pid: "categories",
+  id: "git's use",
+  filter: filters.categories,
+  sorter: sorters.categories,
+  pages: [{"path":"/categories/git's use/","interval":[0,1]}],
   prevText: "Prev",
   nextText: "Next",
 }]

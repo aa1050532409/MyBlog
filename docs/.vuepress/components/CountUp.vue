@@ -1,7 +1,8 @@
 <template>
   <div>
     <ClientOnly>
-      <slot name="before"></slot>
+<!--      <slot name="before"></slot>-->
+      <span>今年：</span>
       <span ref="countUp"></span>
     </ClientOnly>
   </div>
@@ -25,11 +26,11 @@
       },
       duration: {
         type: Number,
-        default: 2
+        default: 5
       },
       delay: {
         type: Number,
-        default: 10
+        default: 1000
       }
     },
     data(){
