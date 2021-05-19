@@ -4,7 +4,6 @@ description: "好像没啥用的description"
 categories:
     - vue
 tags:
-    - vue
     - cross-domain
 publish: true
 date: 2021-5-17 10:00:00

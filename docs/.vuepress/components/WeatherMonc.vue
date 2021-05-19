@@ -44,10 +44,11 @@
         }
       },
       weatherQuery() {
+        // 将http:去掉，不然在https的网页请求会失败
         const weatherUrl = "http://wthrcdn.etouch.cn/weather_mini?city="
         const weatherRequest = (city) => {
           return axios({
-            url: `${weatherUrl}${city}`
+            url: weatherUrl+city
           })
         }
         weatherRequest(this.city).then(res=>{

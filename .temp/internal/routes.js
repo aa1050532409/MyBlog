@@ -4,48 +4,16 @@
 
 import { injectComponentOption, ensureAsyncComponentsLoaded } from '@app/util'
 import rootMixins from '@internal/root-mixins'
-import GlobalLayout from "C:\\Users\\ASUS\\Desktop\\MyWeb\\MyBlog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
+import GlobalLayout from "C:\\Users\\ASUS\\Desktop\\MyWeb\\all-items\\MyBlog\\node_modules\\@vuepress\\core\\lib\\client\\components\\GlobalLayout.vue"
 
 injectComponentOption(GlobalLayout, 'mixins', rootMixins)
 export const routes = [
   {
-    name: "v-5d0b4f59",
-    path: "/blogs/vue/crossDomain.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-5d0b4f59").then(next)
-    },
-  },
-  {
-    name: "v-a25a4b1a",
-    path: "/message.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-a25a4b1a").then(next)
-    },
-  },
-  {
-    name: "v-4c5f2a53",
-    path: "/countup.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-4c5f2a53").then(next)
-    },
-  },
-  {
-    name: "v-e05831ce",
-    path: "/blogs/git/git.html",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-e05831ce").then(next)
-    },
-  },
-  {
-    name: "v-bf08e8f0",
+    name: "v-713ca0e0",
     path: "/",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-bf08e8f0").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-713ca0e0").then(next)
     },
   },
   {
@@ -53,150 +21,60 @@ export const routes = [
     redirect: "/"
   },
   {
-    name: "v-7c2ac234",
+    name: "v-0930cfde",
     path: "/about/about.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-7c2ac234").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-0930cfde").then(next)
     },
   },
   {
-    name: "v-08340e73",
+    name: "v-a614f92a",
+    path: "/message.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-a614f92a").then(next)
+    },
+  },
+  {
+    name: "v-4a81d34b",
+    path: "/countup.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-4a81d34b").then(next)
+    },
+  },
+  {
+    name: "v-7628dc11",
+    path: "/blogs/git/git.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-7628dc11").then(next)
+    },
+  },
+  {
+    name: "v-59d10c40",
+    path: "/blogs/node/http_port/http_port.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-59d10c40").then(next)
+    },
+  },
+  {
+    name: "v-27875451",
+    path: "/blogs/vue/crossDomain.html",
+    component: GlobalLayout,
+    beforeEnter: (to, from, next) => {
+      ensureAsyncComponentsLoaded("Layout", "v-27875451").then(next)
+    },
+  },
+  {
+    name: "v-4f7a3f6b",
     path: "/weatherMonc.html",
     component: GlobalLayout,
     beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Layout", "v-08340e73").then(next)
+      ensureAsyncComponentsLoaded("Layout", "v-4f7a3f6b").then(next)
     },
-  },
-  {
-    name: "v-b1564aac",
-    path: "/tag/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tags", "v-b1564aac").then(next)
-    },
-    meta: {"pid":"tags","id":"tags"}
-  },
-  {
-    path: "/tag/index.html",
-    redirect: "/tag/"
-  },
-  {
-    name: "v-ef9325c4",
-    path: "/categories/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("FrontmatterKey", "v-ef9325c4").then(next)
-    },
-    meta: {"pid":"categories","id":"categories"}
-  },
-  {
-    path: "/categories/index.html",
-    redirect: "/categories/"
-  },
-  {
-    name: "v-6319eb4e",
-    path: "/timeline/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("TimeLines", "v-6319eb4e").then(next)
-    },
-    meta: {"pid":"timeline","id":"timeline"}
-  },
-  {
-    path: "/timeline/index.html",
-    redirect: "/timeline/"
-  },
-  {
-    name: "v-322a45da",
-    path: "/tag/vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-322a45da").then(next)
-    },
-    meta: {"pid":"tags","id":"vue"}
-  },
-  {
-    path: "/tag/vue/index.html",
-    redirect: "/tag/vue/"
-  },
-  {
-    name: "v-06256e18",
-    path: "/tag/cross-domain/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-06256e18").then(next)
-    },
-    meta: {"pid":"tags","id":"cross-domain"}
-  },
-  {
-    path: "/tag/cross-domain/index.html",
-    redirect: "/tag/cross-domain/"
-  },
-  {
-    name: "v-32383f72",
-    path: "/tag/git/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-32383f72").then(next)
-    },
-    meta: {"pid":"tags","id":"git"}
-  },
-  {
-    path: "/tag/git/index.html",
-    redirect: "/tag/git/"
-  },
-  {
-    name: "v-9a67fd28",
-    path: "/tag/about/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Tag", "v-9a67fd28").then(next)
-    },
-    meta: {"pid":"tags","id":"about"}
-  },
-  {
-    path: "/tag/about/index.html",
-    redirect: "/tag/about/"
-  },
-  {
-    name: "v-7f161587",
-    path: "/categories/vue/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-7f161587").then(next)
-    },
-    meta: {"pid":"categories","id":"vue"}
-  },
-  {
-    path: "/categories/vue/index.html",
-    redirect: "/categories/vue/"
-  },
-  {
-    name: "v-8427ddea",
-    path: "/categories/git's use/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-8427ddea").then(next)
-    },
-    meta: {"pid":"categories","id":"git's use"}
-  },
-  {
-    path: "/categories/git's use/index.html",
-    redirect: "/categories/git's use/"
-  },
-  {
-    name: "v-2903608a",
-    path: "/categories/about me and blog/",
-    component: GlobalLayout,
-    beforeEnter: (to, from, next) => {
-      ensureAsyncComponentsLoaded("Category", "v-2903608a").then(next)
-    },
-    meta: {"pid":"categories","id":"about me and blog"}
-  },
-  {
-    path: "/categories/about me and blog/index.html",
-    redirect: "/categories/about me and blog/"
   },
   {
     path: '*',

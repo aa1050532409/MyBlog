@@ -46,72 +46,6 @@ export const siteData = {
   ],
   "pages": [
     {
-      "title": "跨域的解决",
-      "frontmatter": {
-        "title": "跨域的解决",
-        "description": "好像没啥用的description",
-        "categories": [
-          "vue"
-        ],
-        "tags": [
-          "vue",
-          "cross-domain"
-        ],
-        "publish": true,
-        "date": "2021-05-17T10:00:00.000Z",
-        "readingShow": "top"
-      },
-      "regularPath": "/blogs/vue/crossDomain.html",
-      "relativePath": "blogs/vue/crossDomain.md",
-      "key": "v-5d0b4f59",
-      "path": "/blogs/vue/crossDomain.html"
-    },
-    {
-      "title": "评论",
-      "frontmatter": {
-        "title": "评论",
-        "readingShow": "top"
-      },
-      "regularPath": "/message.html",
-      "relativePath": "message.md",
-      "key": "v-a25a4b1a",
-      "path": "/message.html",
-      "lastUpdated": "2021年5月13日星期四晚上9点20分"
-    },
-    {
-      "title": "CountUp 第三方组件",
-      "frontmatter": {
-        "title": "CountUp 第三方组件",
-        "readingShow": "top"
-      },
-      "regularPath": "/countup.html",
-      "relativePath": "countup.md",
-      "key": "v-4c5f2a53",
-      "path": "/countup.html",
-      "lastUpdated": "2021年5月14日星期五晚上11点05分"
-    },
-    {
-      "title": "git的使用",
-      "frontmatter": {
-        "title": "git的使用",
-        "description": "好像没啥用的description",
-        "categories": [
-          "git's use"
-        ],
-        "tags": [
-          "git"
-        ],
-        "publish": true,
-        "date": "2021-05-15T23:30:00.000Z",
-        "readingShow": "top"
-      },
-      "regularPath": "/blogs/git/git.html",
-      "relativePath": "blogs/git/git.md",
-      "key": "v-e05831ce",
-      "path": "/blogs/git/git.html",
-      "lastUpdated": "2021年5月16日星期日凌晨12点16分"
-    },
-    {
       "title": "Home",
       "frontmatter": {
         "home": true,
@@ -121,7 +55,7 @@ export const siteData = {
       },
       "regularPath": "/",
       "relativePath": "README.md",
-      "key": "v-bf08e8f0",
+      "key": "v-713ca0e0",
       "path": "/",
       "headers": [
         {
@@ -150,9 +84,95 @@ export const siteData = {
       },
       "regularPath": "/about/about.html",
       "relativePath": "about/about.md",
-      "key": "v-7c2ac234",
+      "key": "v-0930cfde",
       "path": "/about/about.html",
       "lastUpdated": "2021年5月14日星期五晚上11点05分"
+    },
+    {
+      "title": "评论",
+      "frontmatter": {
+        "title": "评论",
+        "readingShow": "top"
+      },
+      "regularPath": "/message.html",
+      "relativePath": "message.md",
+      "key": "v-a614f92a",
+      "path": "/message.html",
+      "lastUpdated": "2021年5月13日星期四晚上9点20分"
+    },
+    {
+      "title": "CountUp 第三方组件",
+      "frontmatter": {
+        "title": "CountUp 第三方组件",
+        "readingShow": "top"
+      },
+      "regularPath": "/countup.html",
+      "relativePath": "countup.md",
+      "key": "v-4a81d34b",
+      "path": "/countup.html",
+      "lastUpdated": "2021年5月14日星期五晚上11点05分"
+    },
+    {
+      "title": "git的使用",
+      "frontmatter": {
+        "title": "git的使用",
+        "description": "好像没啥用的description",
+        "categories": [
+          "git"
+        ],
+        "tags": [
+          "git's use"
+        ],
+        "publish": true,
+        "date": "2021-05-15T23:30:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/blogs/git/git.html",
+      "relativePath": "blogs/git/git.md",
+      "key": "v-7628dc11",
+      "path": "/blogs/git/git.html",
+      "lastUpdated": "2021年5月16日星期日凌晨12点16分"
+    },
+    {
+      "title": "http端口号80占用问题解决",
+      "frontmatter": {
+        "title": "http端口号80占用问题解决",
+        "description": "好像没啥用的description",
+        "categories": [
+          "node"
+        ],
+        "tags": [
+          "http"
+        ],
+        "publish": true,
+        "date": "2021-05-19T11:00:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/blogs/node/http_port/http_port.html",
+      "relativePath": "blogs/node/http_port/http_port.md",
+      "key": "v-59d10c40",
+      "path": "/blogs/node/http_port/http_port.html"
+    },
+    {
+      "title": "跨域的解决",
+      "frontmatter": {
+        "title": "跨域的解决",
+        "description": "好像没啥用的description",
+        "categories": [
+          "vue"
+        ],
+        "tags": [
+          "cross-domain"
+        ],
+        "publish": true,
+        "date": "2021-05-17T10:00:00.000Z",
+        "readingShow": "top"
+      },
+      "regularPath": "/blogs/vue/crossDomain.html",
+      "relativePath": "blogs/vue/crossDomain.md",
+      "key": "v-27875451",
+      "path": "/blogs/vue/crossDomain.html",
+      "lastUpdated": "2021年5月17日星期一上午10点44分"
     },
     {
       "title": "天气查询",
@@ -162,109 +182,9 @@ export const siteData = {
       },
       "regularPath": "/weatherMonc.html",
       "relativePath": "weatherMonc.md",
-      "key": "v-08340e73",
+      "key": "v-4f7a3f6b",
       "path": "/weatherMonc.html",
       "lastUpdated": "2021年5月17日星期一上午9点02分"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tags",
-        "title": "Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/",
-      "key": "v-b1564aac",
-      "path": "/tag/"
-    },
-    {
-      "frontmatter": {
-        "layout": "FrontmatterKey",
-        "title": "Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/",
-      "key": "v-ef9325c4",
-      "path": "/categories/"
-    },
-    {
-      "frontmatter": {
-        "layout": "TimeLines",
-        "title": "Timeline",
-        "readingShow": "top"
-      },
-      "regularPath": "/timeline/",
-      "key": "v-6319eb4e",
-      "path": "/timeline/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "vue Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/vue/",
-      "key": "v-322a45da",
-      "path": "/tag/vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "cross-domain Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/cross-domain/",
-      "key": "v-06256e18",
-      "path": "/tag/cross-domain/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "git Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/git/",
-      "key": "v-32383f72",
-      "path": "/tag/git/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Tag",
-        "title": "about Tags",
-        "readingShow": "top"
-      },
-      "regularPath": "/tag/about/",
-      "key": "v-9a67fd28",
-      "path": "/tag/about/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "vue Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/vue/",
-      "key": "v-7f161587",
-      "path": "/categories/vue/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "git's use Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/git's%20use/",
-      "key": "v-8427ddea",
-      "path": "/categories/git's use/"
-    },
-    {
-      "frontmatter": {
-        "layout": "Category",
-        "title": "about me and blog Categories",
-        "readingShow": "top"
-      },
-      "regularPath": "/categories/about%20me%20and%20blog/",
-      "key": "v-2903608a",
-      "path": "/categories/about me and blog/"
     }
   ],
   "themeConfig": {

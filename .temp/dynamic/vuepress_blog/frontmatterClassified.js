@@ -3,12 +3,20 @@
  */
 export default {
   "tags": {
+    "about": {
+      "key": "about",
+      "scope": "tags",
+      "path": "/tag/about/",
+      "pageKeys": [
+        "v-0930cfde"
+      ]
+    },
     "vue": {
       "key": "vue",
       "scope": "tags",
       "path": "/tag/vue/",
       "pageKeys": [
-        "v-5d0b4f59"
+        "v-27875451"
       ]
     },
     "cross-domain": {
@@ -16,7 +24,15 @@ export default {
       "scope": "tags",
       "path": "/tag/cross-domain/",
       "pageKeys": [
-        "v-5d0b4f59"
+        "v-27875451"
+      ]
+    },
+    "http": {
+      "key": "http",
+      "scope": "tags",
+      "path": "/tag/http/",
+      "pageKeys": [
+        "v-59d10c40"
       ]
     },
     "git": {
@@ -24,25 +40,33 @@ export default {
       "scope": "tags",
       "path": "/tag/git/",
       "pageKeys": [
-        "v-e05831ce"
-      ]
-    },
-    "about": {
-      "key": "about",
-      "scope": "tags",
-      "path": "/tag/about/",
-      "pageKeys": [
-        "v-7c2ac234"
+        "v-7628dc11"
       ]
     }
   },
   "categories": {
+    "about me and blog": {
+      "key": "about me and blog",
+      "scope": "categories",
+      "path": "/categories/about me and blog/",
+      "pageKeys": [
+        "v-0930cfde"
+      ]
+    },
     "vue": {
       "key": "vue",
       "scope": "categories",
       "path": "/categories/vue/",
       "pageKeys": [
-        "v-5d0b4f59"
+        "v-27875451"
+      ]
+    },
+    "http": {
+      "key": "http",
+      "scope": "categories",
+      "path": "/categories/http/",
+      "pageKeys": [
+        "v-59d10c40"
       ]
     },
     "git's use": {
@@ -50,15 +74,7 @@ export default {
       "scope": "categories",
       "path": "/categories/git's use/",
       "pageKeys": [
-        "v-e05831ce"
-      ]
-    },
-    "about me and blog": {
-      "key": "about me and blog",
-      "scope": "categories",
-      "path": "/categories/about me and blog/",
-      "pageKeys": [
-        "v-7c2ac234"
+        "v-7628dc11"
       ]
     }
   },

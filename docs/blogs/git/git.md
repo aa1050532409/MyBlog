@@ -2,9 +2,9 @@
 title: git的使用
 description: "好像没啥用的description"
 categories:
-    - git's use
-tags:
     - git
+tags:
+    - git's use
 publish: true
 date: 2021-5-15 23:30:00
 ---
